@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-21T12:47:17 IST" name="Suite" finished-at="2024-03-21T12:48:04 IST" duration-ms="47286">
+    <groups>
+    </groups>
+    <test started-at="2024-03-21T12:47:17 IST" name="Test" finished-at="2024-03-21T12:48:04 IST" duration-ms="47286">
+      <class name="test_runner.LoginTestRunner">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:test_runner.LoginTestRunner@248e319b]" started-at="2024-03-21T12:47:17 IST" name="setBrowser" finished-at="2024-03-21T12:47:28 IST" duration-ms="10615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method is-config="true" signature="doLogin()[pri:0, instance:test_runner.LoginTestRunner@248e319b]" started-at="2024-03-21T12:47:28 IST" name="doLogin" finished-at="2024-03-21T12:47:43 IST" depends-on-methods="Setup.setup.setBrowser" duration-ms="15360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="createEmployee2()[pri:2, instance:test_runner.LoginTestRunner@248e319b]" started-at="2024-03-21T12:47:43 IST" name="createEmployee2" finished-at="2024-03-21T12:47:58 IST" duration-ms="15535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee2 -->
+        <test-method signature="SerachbyEmpName()[pri:3, instance:test_runner.LoginTestRunner@248e319b]" started-at="2024-03-21T12:47:59 IST" name="SerachbyEmpName" finished-at="2024-03-21T12:48:01 IST" duration-ms="1993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SerachbyEmpName -->
+        <test-method signature="SearchByEmpid()[pri:4, instance:test_runner.LoginTestRunner@248e319b]" started-at="2024-03-21T12:48:01 IST" name="SearchByEmpid" finished-at="2024-03-21T12:48:04 IST" duration-ms="3648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchByEmpid -->
+      </class> <!-- test_runner.LoginTestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
