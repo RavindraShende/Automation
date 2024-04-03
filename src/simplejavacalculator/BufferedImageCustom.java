@@ -18,6 +18,19 @@ class BufferedImageCustom {
       BufferedImage bImage2 = ImageIO.read(bis);
       image = bImage2;
       
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       return image;
    }       
 }
